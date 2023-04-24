@@ -1,0 +1,27 @@
+Nav {
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-family: 'Andale Mono', monospace;
+    font-size: larger;
+    color: rgb(50, 50, 50);
+    font-weight: bold;
+}
+
+.brand {
+    text-decoration: overline underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 6px;
+    letter-spacing: 2px;
+    font-family: 'Andale Mono', monospace;
+    color: rgb(50, 50, 50);
+    font-weight: bold;
+    text-shadow: 0 0 2px rgb(198, 215, 238), 0 0 5px rgb(194, 189, 189);
+    font-size: x-large;
+    margin-block-end: 3px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.brand:hover {
+    color: rgb(63, 142, 179);
+}
